@@ -1,0 +1,12 @@
+@local = http://localhost:{{$dotenv PORT}}/api
+@contentType = application/json
+@remote = https://beshyapi.herokuapp.com/api
+
+### TEST WELCOME REQUEST
+POST {{remote}} HTTP/1.1
+Content-Type: {{contentType}}
+
+{
+	"isInstitution": true,
+	"query": "RAB345r"
+}

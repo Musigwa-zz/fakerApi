@@ -1,0 +1,25 @@
+{
+  "name": "FakeApi",
+  "version": "1.0.0",
+  "description": "Fake some functionalities",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon api"
+  },
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "Sizana group",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "faker": "4.1.0",
+    "helmet": "3.21.2",
+    "http-status-codes": "1.4.0",
+    "morgan": "1.9.1",
+    "nodemon": "2.0.1"
+  }
+}
